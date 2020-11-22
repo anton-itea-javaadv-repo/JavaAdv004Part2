@@ -17,7 +17,7 @@ public class MyFrame extends JFrame {
         URL urlIn  = MyFrame.class.getResource("/ua/itea/javaadv/hw004/part2/in.txt");
         URL urlOut;
         try {
-            urlOut = new File("out.txt").toURL();
+            urlOut = new File("out.txt").toURI().toURL();
         } catch (MalformedURLException e) {
             throw new RuntimeException(e.getMessage(), e);
         }
