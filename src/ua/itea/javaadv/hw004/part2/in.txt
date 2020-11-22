@@ -1,0 +1,2 @@
+An inner text file.
+Second line of inner text file.

@@ -1,0 +1,1 @@
+Main-class: ua.itea.javaadv.hw004.part2.MyFrame
